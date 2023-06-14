@@ -1,7 +1,7 @@
-/************* FS Program 2 , written by: Prasad B S  *************/
+
 
 /*Write a program to read and write student objects with fixed-length records and the
-fields delimited by ì|î. Implement pack ( ), unpack ( ), modify ( ) and search ( )
+fields delimited by ‚Äú|‚Äù. Implement pack ( ), unpack ( ), modify ( ) and search ( )
 methods.*/
 #include<iostream>
 #include<stdlib.h>
