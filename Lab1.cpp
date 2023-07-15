@@ -4,7 +4,6 @@ these names spelled in reverse order to the standard output using I/O redirectio
 pipes. Repeat the exercise using an input file specified by the user instead of the
 standard input and using an output file specified by the user instead of the standard
 output.*/
-
 #include<iostream>
 #include<fstream>
 #include<string.h>
