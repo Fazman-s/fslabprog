@@ -1,5 +1,3 @@
-/************* FS Program 5 , written by: Prasad B S  *************/
-
 /*Write a program to implement simple index on primary key for a file of student
 objects. Implement add ( ), search ( ), delete ( ) using the index. */
 #include<iostream>
