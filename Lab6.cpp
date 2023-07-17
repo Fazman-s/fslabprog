@@ -1,5 +1,3 @@
-/************* FS Program 6 , written by: Prasad B S  *************/
-
 /*Write a program to implement index on secondary key, the name, for a file of
 student objects. Implement add ( ), search ( ), delete ( ) using the secondary index. */
 #include<iostream>
@@ -8,8 +6,6 @@ student objects. Implement add ( ), search ( ), delete ( ) using the secondary i
 #include<stdlib.h>
 
 using namespace std;
-
-
 
 class student
 {
