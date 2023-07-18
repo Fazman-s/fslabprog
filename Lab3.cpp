@@ -1,5 +1,3 @@
-/************* FS Program 3 , written by: Prasad B S  *************/
-
 /*Write a program to read and write student objects with Variable - Length records
 using any suitable record structure. Implement pack ( ), unpack ( ), modify ( ) and
 search ( ) methods.*/
