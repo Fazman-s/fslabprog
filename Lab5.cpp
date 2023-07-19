@@ -73,7 +73,6 @@ void search()
 				cout<<" RRN value of record:"<<rrn<<endl;
 				fp1.seekg((rrn-1)*49,ios::beg);
 				fp1.getline(buffer1,100);
-				//cout<<"buffer content"<<buffer1<<endl;
 				sscanf(buffer1,"%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^!]!",temprrn,x.name,x.usn,x.age,x.sem,x.branch);
 				cout<<"\nUSN:"<<x.usn<<"\nNAME:"<<x.name<<"\nAGE:"<<x.age<<"\nSEM:"<<x.sem<<"\nBRANCH:"<<x.branch<<endl;
 		       		break;
@@ -99,8 +98,7 @@ void delet()
 		sscanf(buffer,"%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^!]!",temp,s[j].name,s[j].usn,s[j].age,s[j].sem,s[j].branch);
 	}
 	fp1.close();
-	//fp2.close();
-		cout<<" deleting record no:"<<i+1<<endl;
+	cout<<" deleting record no:"<<i+1<<endl;
 
 	remove("std.txt");
 	remove("ind.txt");
