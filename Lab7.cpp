@@ -1,5 +1,3 @@
-/************* FS Program 7 , written by: Prasad B S  *************/
-
 /*Write a program to read two lists of names and then match the names in the two lists
 using Consequential Match based on a single loop. Output the names common to both the lists. */
 #include<iostream>
@@ -7,13 +5,10 @@ using Consequential Match based on a single loop. Output the names common to bot
 #include<fstream>
 #include<stdlib.h>
 using namespace std;
-
-
 fstream out1,out2,out3;
 
 void writelists()
 {
-	
 	int i,m,n;
 	char name[20];
 	out1.open("file1.txt",ios::out);
