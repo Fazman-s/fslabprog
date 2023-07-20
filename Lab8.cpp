@@ -1,5 +1,3 @@
-/************* FS Program 8 , written by: Prasad B S  *************/
-
 /*Write a program to read k Lists of names and merge them using k-way merge
 algorithm with k = 8.  */
 #include<iostream>
