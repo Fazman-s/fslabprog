@@ -27,9 +27,6 @@ void pack(student p)
 	strcat(buffer,"|");
 	strcat(buffer,p.branch);
 	strcat(buffer,"|");
-      //	int x=strlen(buffer);
-       //	for(int j=0;j<45-x;j++)
-       //	strcat(buffer,"!");
 	fp<<count<<"|"<<buffer<<endl;
 	fp.close();
 
